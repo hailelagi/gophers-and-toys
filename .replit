@@ -1,0 +1,2 @@
+language = "bash"
+run = "cd rock_paper_scissors && go run main.go"
