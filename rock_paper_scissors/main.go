@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"github.com/hailelagi/gophers-and-toys/rock_paper_scissors/rps"
 )
 
@@ -31,5 +30,6 @@ To connect to a new session you must possess a game ID
 */
 
 func main() {
-	fmt.Println(rps.Hello())
+	// 1. spin up a TCP server and client
+	rps.Server()
 }
